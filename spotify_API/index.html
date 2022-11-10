@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+    <title>My Jamz</title>
+</head>
+<body>
+    <div class="container">
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1" id="fig1" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="/spotify_API/images/irrational_man.jpeg" alt="Need To Fall Noticing Icarus" class="gallery__img">    
+            </figure>
+            <figure class="gallery__item gallery__item--2" id="fig2" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="/spotify_API/images/mountain brews.webp" alt="mountain brews mountain brews" class="gallery__img">    
+            </figure>
+            <figure class="gallery__item gallery__item--3" id="fig3" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="/spotify_API/images/novo amor.png" alt="halloween novo amor" class="gallery__img">    
+            </figure>
+            <figure class="gallery__item gallery__item--4" id="fig4" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="/spotify_API/images/Petey.jpeg" alt="california petey" class="gallery__img">    
+            </figure>
+            <figure class="gallery__item gallery__item--5" id="fig5" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="/spotify_API/images/sufjan.jpeg" alt="chicago sufjan" class="gallery__img">    
+            </figure>
+            <figure class="gallery__item gallery__item--6" id="fig6" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="/spotify_API/images/Head-Hunters.jpeg" alt="watermelon man herbie" class="gallery__img">    
+            </figure>
+        </div>
+        <div class="buttoncontain">
+            <button onclick="stopSnippet()">Stop Song</button>
+        </div>
+    </div>
+</body>
+</html>

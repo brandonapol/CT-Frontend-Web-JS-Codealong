@@ -1,0 +1,102 @@
+.my_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    opacity: 0.85;
+}
+
+form {
+    width: 60%;
+}
+
+label {
+    margin-right: 15px;
+}
+
+.searchbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    width: 100%;
+}
+
+.displaydata {
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.innersearch {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: space-around;
+}
+
+a {
+    text-decoration-color: darkgray;
+    color: darkgray;
+}
+
+.searcher{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    margin-right: 75%;
+
+}
+
+.text {
+    width: 200px;
+}
+
+.mybutton {
+    margin: 10px;
+    background-color: black;
+    color: white;
+    width: 200px;
+}
+
+input {
+    text-align: center;
+}
+
+body {
+    background-image: url(http://jd-doria.com/full/logic_of_nature/logic_of_nature_12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#weatherimg {
+    max-height: 600px;
+}
+
+.readout{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.blankdiv {
+    height: 3em;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}

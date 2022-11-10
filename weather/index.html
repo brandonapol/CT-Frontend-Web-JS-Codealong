@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="apple-touch-icon" sizes="180x180" href="../weather/static/images/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../weather/static/images/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../weather/static/images/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="main.css">
+<script src="main.js" defer></script>
+<title>eeyore's weather</title>
+</head>
+<body>
+    <div class="my_section">
+        <div class="searchbar">
+        <form>
+            <div class="innersearch">
+                <div class="searcher">
+                    <!-- <label for="city">city: </label> -->
+                    <input type="text" class="text" id="city" placeholder="city">
+                </div>
+                <!-- <div class="col">
+                    <label for="round">Round</label>
+                    <input type="text" class="text" id="round">
+                </div> -->
+                <div class="searchbutton">
+                <button type="button" class="mybutton" onClick="getData()">search</button>
+                </div>
+            </div>
+        </form>
+        </div>
+        <div class="blankdiv">
+            <p> </p>
+        </div>
+        <div class="displaydata">
+            <div class="col">
+                <img id="weatherimg" src="" alt="">
+            </div>
+            <div class="readout">
+                <div id="high">Please enter a location</div>
+                <div id="low"></div>
+                <div id="weather"></div>
+                <div id="humidity"></div>
+            </div>
+        </div>
+        <div class="blankdiv">
+            <p> </p>
+        </div>
+        <div class="footer">
+            <p>copyright 2021 <a href="https://github.com/brandonapol">brandon apol</a></p>
+            <p>background image courtesy of <a href="http://jd-doria.com/index.html">jd doria</a></p>
+        </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/js/bootstrap.min.js"></script>
+</body>
+</html>
